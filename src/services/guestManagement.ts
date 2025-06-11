@@ -1,9 +1,13 @@
 import {Guest} from "../models/guest";
+import {isGuest} from "../utils/typeguard"
 
 export class GuestManagement{
     private guests: Guest[] = [];
     private newId: number =1;
     addGuest(nev: string, email: string): Guest {
+        if (!nev || !email) {
+        throw new Error('Név és email megadása kötelező.');
+    }
         const guest: Guest = {
             id: this.newId++,
             nev,
