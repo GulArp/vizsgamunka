@@ -1,5 +1,5 @@
-import {Guest} from "../models/guest"
-import {Event} from "../models/event"
+import {Guest} from "../models/guest";
+import {Event} from "../models/event";
 
 export class EventManagement{
 

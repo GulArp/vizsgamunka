@@ -1,4 +1,4 @@
-import {Guest} from "../models/guest"
+import {Guest} from "../models/guest";
 
 export class GuestManagement{
     private guests: Guest[] = [];

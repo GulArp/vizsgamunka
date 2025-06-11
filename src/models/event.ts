@@ -1,4 +1,4 @@
-import {Guest} from "./guest"
+import {Guest} from "./guest";
 
 
 export interface Event{
