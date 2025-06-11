@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GulArp/vizsgamunka/issues"
   },
-  "homepage": "https://github.com/GulArp/vizsgamunka#readme"
+  "homepage": "https://github.com/GulArp/vizsgamunka#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
